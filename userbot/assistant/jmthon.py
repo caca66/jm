@@ -4,11 +4,10 @@
 import io
 import re
 
+from Jmthon.razan.resources.assistant import *
 from telethon import *
 from telethon import Button, custom, events
 from telethon.tl.functions.users import GetFullUserRequest
-
-from Jmthon.razan.resources.assistant import *
 
 # Telegram  :  @Jmthon  - @RR7PP   -  https://github.com/JMTHON-AR/JM-THON/blob/master/LICENSE
 from userbot import bot
