@@ -1,6 +1,7 @@
 import random
 
 from Jmthon.razan._islam import *
+
 from userbot import jmthon
 
 plugin_category = "extra"

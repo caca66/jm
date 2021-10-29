@@ -7,9 +7,8 @@ import heroku3
 import lottie
 import requests
 import spamwatch as spam_watch
-from validators.url import url
-
 from Jmthon.razan.resources.Gif import *
+from validators.url import url
 
 from .. import *
 from ..Config import Config
