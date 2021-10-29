@@ -25,10 +25,10 @@ plugin_category = "bot"
 
 
 @jmthon.ar_cmd(
-    pattern="فحص$",
-    command=("فحص", plugin_category),
+    pattern="alive$",
+    command=("alive", plugin_category),
 )
-@jmthon.on(sudo_cmd(pattern="فحص$", allow_sudo=True))
+@jmthon.on(sudo_cmd(pattern="alive$", allow_sudo=True))
 async def amireallyalive(event):
     "للتـأكد من ان البـوت يعـمـل"
     reply_to_id = await reply_id(event)
