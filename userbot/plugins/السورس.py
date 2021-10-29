@@ -1,6 +1,5 @@
-from telethon import Button, events
-
 from Jmthon.razan.resources.mybot import *
+from telethon import Button, events
 
 from ..Config import Config
 
